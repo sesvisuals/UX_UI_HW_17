@@ -1,0 +1,18 @@
+.logo {
+  background: black;
+  background-image: url(images/Navcon w:logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav {
+    display: flex;
+    background-color: none;
+    padding: 50px;
+
+}
+.h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+
+}
