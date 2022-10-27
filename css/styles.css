@@ -1,10 +1,36 @@
-
-img {
-  width: 100vw;
+body {
+  background-color: black;
+  font-family: 'Nunito';
 }
-.logo {
-  background: black;
-  background-image: url(images/Navcon w:logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.topnav {
+  background-color: none;
+  overflow: auto;
+}
+img {
+  width: 99vw;
+  background-color: none;
+  position: absolute;
+}
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2.7%;
+  
+  width: 20%;
+  text-decoration: none;
+  font-size: 48px;
+  
+}
+.topnav a:hover {
+  font-size: 50px
+  background-color: #FF5F1F;
+  color: white;
+}
+.topnav a.active {
+  color: #FF5F1F;
+}
+
+.Aboutme {
+  
 }
