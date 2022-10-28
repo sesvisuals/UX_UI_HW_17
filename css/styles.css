@@ -2,35 +2,34 @@ body {
   background-color: black;
   font-family: 'Nunito';
 }
-.topnav {
-  background-color: none;
-  overflow: auto;
+.navBar {
+  background-color: black;
 }
-img {
-  width: 99vw;
+.navCon {
+  width: 98vw;
   background-color: none;
-  position: absolute;
+  position: fixed;
 }
-.topnav a {
+a {
   float: left;
+  position: fixed;
   color: #ffffff;
   text-align: center;
-  padding-top: 2.7%;
-  
+  padding-top: 73px;  
   width: 20%;
-  text-decoration: none;
   font-size: 48px;
   
 }
-.topnav a:hover {
-  font-size: 50px
+.nav a:hover {
+  font-size: 52px;
   background-color: #FF5F1F;
   color: white;
 }
-.topnav a.active {
+.aboutMe {
+  position: relative;
   color: #FF5F1F;
 }
-
-.Aboutme {
-  
+.ss {
+  outline-width: 4px;
+  outline-color: #FF5F1F;
 }
