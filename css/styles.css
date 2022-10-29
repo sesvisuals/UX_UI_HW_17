@@ -5,31 +5,35 @@ body {
 .navBar {
   background-color: black;
 }
-.navCon {
-  width: 98vw;
-  background-color: none;
-  position: fixed;
-}
 a {
-  float: left;
-  position: fixed;
+  float: center;
   color: #ffffff;
-  text-align: center;
-  padding-top: 73px;  
-  width: 20%;
-  font-size: 48px;
-  
+  text-align: center; 
+  font-size: 48px;  
 }
-.nav a:hover {
+.navPage:hover {
   font-size: 52px;
-  background-color: #FF5F1F;
+  border: #FF5F1F double 8px;  
   color: white;
 }
-.aboutMe {
-  position: relative;
+.active {
   color: #FF5F1F;
 }
 .ss {
   outline-width: 4px;
   outline-color: #FF5F1F;
 }
+.topNavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-style: center;
+  font-size: 48px;
+  overflow: hidden;
+}
+.navPage {
+  display: inline-block;
+  padding: 10px 15px;
+  border: #00FFFF double 8px;
+}
+.logo {}
