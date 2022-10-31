@@ -2,7 +2,6 @@ body {
   display: center;
   background-color: black;
   font-family: 'Nunito';
-  border: #00FFFF double 8px;
 }
 h1 {
   color: white;
@@ -58,14 +57,6 @@ header {
   padding:10px 10px;
   border: #00FFFF double 8px;
   margin: 30px;
-}
-.navPage:hover {
-  font-size: 34px;
-  border: #FF5F1F double 8px;  
-  color: white;
-}
-.active {
-  color: #FF5F1F;
 }
 a {
   float: center;
